@@ -33,8 +33,8 @@
         }
     ],
     "family": "nodejs-app-task-definition",
-    "taskRoleArn": "arn:aws:iam::763857617563:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::763857617563:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::551561343088:role/EcsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::551561343088:role/EcsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 3,
     "volumes": [],
@@ -82,7 +82,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-09-25T19:33:06.607Z",
-    "registeredBy": "arn:aws:iam::763857617563:root",
+    "registeredAt": "2024-04-06T06:44:29.898Z",
+    "registeredBy": "arn:aws:iam::551561343088:root",
     "tags": []
 }
