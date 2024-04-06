@@ -18,7 +18,7 @@ jobs:
           aws-region: 'eu-north-1'
       - name: Login to Amazon ECR
         id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v1
+        uses: aws-actions/amazon-ecr-login@v4
         with:
           mask-password: 'true'
           
@@ -38,7 +38,7 @@ jobs:
 
       - name: 551561343088.dkr.ecr.ap-south-1.amazonaws.com/nodejs-app
         id: task-def
-        uses: aws-actions/amazon-ecs-render-task-definition@v1
+        uses: aws-actions/amazon-ecs-render-task-definition@v4
         with:
           task-definition: nodejs-app-task-definition.json 
           container-name: nodejs-app
